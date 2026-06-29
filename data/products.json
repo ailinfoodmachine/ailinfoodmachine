@@ -1,0 +1,245 @@
+[
+  {
+    "id": "yqc801-multifunctional-vegetable-cutter",
+    "category": "vegetable-cutting",
+    "name": "YQC801 Multifunctional Vegetable Cutter",
+    "nameZh": "YQC801 多功能切菜机",
+    "shortName": "YQC801 Vegetable Cutter",
+    "image": "/images/products/ailin/yqc801-vegetable-cutter.png",
+    "gallery": [
+      "/images/products/ailin/yqc801-vegetable-cutter.png",
+      "/images/catalog/page-02.png",
+      "/images/catalog/page-03.png",
+      "/images/catalog/page-04.png"
+    ],
+    "summary": "Multifunctional vegetable cutting machine for slices, strips, dices, segments, and cubes in central kitchens and food factories.",
+    "summaryZh": "适用于中央厨房和食品加工厂，可实现切片、切丝、切丁、切段、切块等多种加工效果。",
+    "featured": true,
+    "coreParam": "850kg/h / 170kg",
+    "coreParamZh": "产量 850kg/h / 重量 170kg",
+    "parameters": {
+      "Model": "YQC801",
+      "Power": "2 x 1.1kW + 0.55kW",
+      "Weight": "170kg",
+      "Dimension": "1165 x 550 x 1255mm",
+      "Specification": "1-45mm slices, strips, cubes",
+      "Capacity": "850kg/h"
+    }
+  },
+  {
+    "id": "yqc501-double-head-vegetable-cutter",
+    "category": "vegetable-cutting",
+    "name": "YQC501 Double Head Vegetable Cutter",
+    "nameZh": "YQC501 双头切菜机",
+    "shortName": "YQC501 Double Head Cutter",
+    "image": "/images/products/ailin/yqc501-double-head-cutter.png",
+    "gallery": [
+      "/images/products/ailin/yqc501-double-head-cutter.png",
+      "/images/catalog/page-03.png",
+      "/images/catalog/page-02.png",
+      "/images/catalog/page-04.png"
+    ],
+    "summary": "Double-head cutting machine designed for continuous vegetable processing with flexible cutting effects.",
+    "summaryZh": "双头连续式蔬菜加工设备，适合多种蔬菜切割需求，切型灵活。",
+    "featured": true,
+    "coreParam": "Double Head / Multi-cut",
+    "coreParamZh": "双头加工 / 多种切型",
+    "parameters": {
+      "Model": "YQC501",
+      "Application": "Leafy vegetables and root vegetables",
+      "Cutting type": "Slice, shred, dice, segment",
+      "Material": "Stainless steel body",
+      "Control": "Independent cutting controls",
+      "Use": "Commercial kitchen and food plant"
+    }
+  },
+  {
+    "id": "chd20-vegetable-dicer",
+    "category": "vegetable-cutting",
+    "name": "CHD20 Vegetable Dicer",
+    "nameZh": "CHD20 切丁机",
+    "shortName": "CHD20 Dicer",
+    "image": "/images/products/ailin/chd20-vegetable-dicer.png",
+    "gallery": [
+      "/images/products/ailin/chd20-vegetable-dicer.png",
+      "/images/catalog/page-03.png",
+      "/images/catalog/page-04.png",
+      "/images/catalog/page-05.png"
+    ],
+    "summary": "Compact dicing equipment for potatoes, carrots, radishes, onions, and similar vegetables.",
+    "summaryZh": "紧凑型切丁设备，适用于土豆、胡萝卜、萝卜、洋葱等蔬菜加工。",
+    "featured": true,
+    "coreParam": "Dice / Compact",
+    "coreParamZh": "切丁 / 小型紧凑",
+    "parameters": {
+      "Model": "CHD20",
+      "Function": "Vegetable dicing",
+      "Material": "Stainless steel",
+      "Application": "Root vegetables",
+      "Operation": "Easy blade replacement",
+      "Use": "Restaurants, kitchens, processing plants"
+    }
+  },
+  {
+    "id": "chd100-vegetable-slicer",
+    "category": "vegetable-cutting",
+    "name": "CHD100 Vegetable Slicer",
+    "nameZh": "CHD100 切片机",
+    "shortName": "CHD100 Slicer",
+    "image": "/images/products/ailin/chd100-vegetable-slicer.png",
+    "gallery": [
+      "/images/products/ailin/chd100-vegetable-slicer.png",
+      "/images/catalog/page-04.png",
+      "/images/catalog/page-03.png",
+      "/images/catalog/page-05.png"
+    ],
+    "summary": "Vegetable slicing machine for potatoes, carrots, cucumbers, onions, and prepared food production.",
+    "summaryZh": "适用于土豆、胡萝卜、黄瓜、洋葱等蔬菜切片及净菜加工场景。",
+    "featured": true,
+    "coreParam": "Slicing / Stainless",
+    "coreParamZh": "切片 / 不锈钢机身",
+    "parameters": {
+      "Model": "CHD100",
+      "Function": "Slicing",
+      "Application": "Vegetables and fruits",
+      "Material": "Stainless steel",
+      "Blade": "Replaceable cutter set",
+      "Use": "Central kitchens and food factories"
+    }
+  },
+  {
+    "id": "sh30-potato-peeling-machine",
+    "category": "cleaning-peeling",
+    "name": "SH30 Potato Peeling Machine",
+    "nameZh": "SH30 土豆脱皮机",
+    "shortName": "SH30 Peeler",
+    "image": "/images/products/ailin/sh30-potato-peeler.png",
+    "gallery": [
+      "/images/products/ailin/sh30-potato-peeler.png",
+      "/images/catalog/page-05.png",
+      "/images/catalog/page-06.png",
+      "/images/catalog/page-08.png"
+    ],
+    "summary": "Peeling machine for potatoes and root vegetables, suitable for kitchen preparation and batch processing.",
+    "summaryZh": "适用于土豆及根茎类蔬菜脱皮，满足厨房预处理和批量加工需求。",
+    "featured": true,
+    "coreParam": "Root Vegetable / Peeling",
+    "coreParamZh": "根茎类蔬菜 / 脱皮",
+    "parameters": {
+      "Model": "SH30",
+      "Function": "Potato and root vegetable peeling",
+      "Material": "Stainless steel",
+      "Application": "Potatoes, carrots, taro",
+      "Operation": "Batch processing",
+      "Use": "Canteens and food processing workshops"
+    }
+  },
+  {
+    "id": "j0-400-meat-grinder",
+    "category": "meat-processing",
+    "name": "JQ 400 Meat Grinder",
+    "nameZh": "JQ 400 绞肉机",
+    "shortName": "JQ 400 Meat Grinder",
+    "image": "/images/products/ailin/jq400-meat-grinder.png",
+    "gallery": [
+      "/images/products/ailin/jq400-meat-grinder.png",
+      "/images/catalog/page-06.png",
+      "/images/catalog/page-07.png",
+      "/images/catalog/page-10.png"
+    ],
+    "summary": "Meat grinding equipment for restaurants, meat processing workshops, and prepared food factories.",
+    "summaryZh": "适用于餐饮门店、肉类加工车间和预制食品工厂的肉类绞制加工。",
+    "featured": true,
+    "coreParam": "Meat / Grinding",
+    "coreParamZh": "肉类加工 / 绞肉",
+    "parameters": {
+      "Model": "JQ 400",
+      "Function": "Meat grinding",
+      "Material": "Food-grade stainless steel",
+      "Application": "Fresh and chilled meat",
+      "Operation": "Continuous processing",
+      "Use": "Meat shops and food factories"
+    }
+  },
+  {
+    "id": "dk300-multi-function-meat-cutter",
+    "category": "meat-processing",
+    "name": "DK300 Multi-function Meat Cutter",
+    "nameZh": "DK300 多功能切肉机",
+    "shortName": "DK300 Meat Cutter",
+    "image": "/images/products/ailin/dk300-meat-cutter.png",
+    "gallery": [
+      "/images/products/ailin/dk300-meat-cutter.png",
+      "/images/catalog/page-07.png",
+      "/images/catalog/page-06.png",
+      "/images/catalog/page-10.png"
+    ],
+    "summary": "Multi-function meat cutting machine for slices and strips in commercial food preparation.",
+    "summaryZh": "多功能肉类切割设备，适合商用厨房肉片、肉丝等加工需求。",
+    "featured": false,
+    "coreParam": "Slice / Strip",
+    "coreParamZh": "切片 / 切丝",
+    "parameters": {
+      "Model": "DK300",
+      "Function": "Meat slicing and strip cutting",
+      "Material": "Stainless steel",
+      "Application": "Fresh meat processing",
+      "Blade": "Replaceable cutter assembly",
+      "Use": "Central kitchens and food processors"
+    }
+  },
+  {
+    "id": "hwt-75-dough-mixer",
+    "category": "dough-processing",
+    "name": "HWT-75 Dough Mixer",
+    "nameZh": "HWT-75 和面机",
+    "shortName": "HWT-75 Dough Mixer",
+    "image": "/images/products/ailin/hwt75-dough-mixer.png",
+    "gallery": [
+      "/images/products/ailin/hwt75-dough-mixer.png",
+      "/images/catalog/page-08.png",
+      "/images/catalog/page-09.png",
+      "/images/catalog/page-10.png"
+    ],
+    "summary": "Dough mixing machine for steamed buns, dumplings, noodles, and prepared flour products.",
+    "summaryZh": "适用于馒头、饺子、面条及面食制品生产前的和面处理。",
+    "featured": false,
+    "coreParam": "Dough / Mixing",
+    "coreParamZh": "面食加工 / 和面",
+    "parameters": {
+      "Model": "HWT-75",
+      "Function": "Dough mixing",
+      "Application": "Flour products",
+      "Material": "Stainless steel contact parts",
+      "Operation": "Batch mixing",
+      "Use": "Bakeries, canteens, food plants"
+    }
+  },
+  {
+    "id": "mp30-dumpling-machine",
+    "category": "dough-processing",
+    "name": "MP30 Dumpling Machine",
+    "nameZh": "MP30 饺子机",
+    "shortName": "MP30 Dumpling Machine",
+    "image": "/images/products/ailin/mp30-dumpling-machine.png",
+    "gallery": [
+      "/images/products/ailin/mp30-dumpling-machine.png",
+      "/images/catalog/page-09.png",
+      "/images/catalog/page-08.png",
+      "/images/catalog/page-10.png"
+    ],
+    "summary": "Dumpling forming machine for standardized production in restaurants and prepared food factories.",
+    "summaryZh": "适用于餐饮门店和速冻食品工厂的标准化饺子成型加工。",
+    "featured": false,
+    "coreParam": "Dumpling / Forming",
+    "coreParamZh": "饺子 / 成型",
+    "parameters": {
+      "Model": "MP30",
+      "Function": "Dumpling forming",
+      "Application": "Dumplings and filled dough products",
+      "Operation": "Stable forming",
+      "Material": "Food-grade contact parts",
+      "Use": "Frozen food and catering factories"
+    }
+  }
+]

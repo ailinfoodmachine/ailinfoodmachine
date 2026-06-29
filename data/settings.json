@@ -1,0 +1,23 @@
+{
+  "brand": {
+    "name": "Jinan Ailin Machinery Equipment Co., Ltd.",
+    "nameZh": "济南艾霖机械设备有限公司",
+    "tagline": "Cookware and food processing machinery for global manufacturers",
+    "logoText": "艾霖梓瑞"
+  },
+  "contact": {
+    "email": "814611970@qq.com",
+    "phone": "+86 155 8886 9611",
+    "whatsapp": "+86 155 8886 9611",
+    "whatsappUrl": "https://wa.me/8615588869611",
+    "wechatQr": "/images/contact/wechat-qr.jpg",
+    "address": "Zhangqiu District, Jinan, Shandong, China",
+    "addressZh": "山东省济南市章丘区刁镇董家村中心街与038公路交叉口向东18米路北",
+    "mapEmbedUrl": "https://www.google.com/maps?q=Jinan%20Shandong%20China&output=embed"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/",
+    "youtube": "https://www.youtube.com/",
+    "facebook": "https://www.facebook.com/"
+  }
+}

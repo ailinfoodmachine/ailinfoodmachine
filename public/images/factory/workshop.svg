@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Factory workshop placeholder">
+  <rect width="1200" height="800" fill="#eef1f4"/>
+  <path d="M0 530h1200v270H0z" fill="#d8dde3"/>
+  <g stroke="#a3abb5" stroke-width="8"><path d="M90 160h1020M130 250h940M170 340h860"/><path d="M180 120v410M420 120v410M660 120v410M900 120v410"/></g>
+  <g transform="translate(140 360)"><rect width="260" height="170" rx="8" fill="#2b333d"/><rect x="50" y="-105" width="160" height="130" rx="8" fill="#aeb7c1"/><rect x="98" y="18" width="64" height="100" fill="#f97316"/></g>
+  <g transform="translate(500 330)"><rect y="205" width="410" height="40" fill="#68717d"/><circle cx="130" cy="120" r="96" fill="none" stroke="#798491" stroke-width="26"/><circle cx="130" cy="120" r="38" fill="#f97316"/><rect x="270" y="50" width="120" height="190" rx="8" fill="#303842"/></g>
+  <rect x="900" y="455" width="170" height="90" rx="8" fill="#f97316"/>
+</svg>

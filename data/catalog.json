@@ -1,0 +1,15 @@
+{
+  "download": "/downloads/ailin-product-catalog.pdf",
+  "pages": [
+    { "title": "Catalog Cover", "titleZh": "画册封面", "image": "/images/catalog/page-01.png" },
+    { "title": "Company Introduction / YQC801 Vegetable Cutter", "titleZh": "企业简介 / YQC801 多功能切菜机", "image": "/images/catalog/page-02.png" },
+    { "title": "Vegetable Cutting Series", "titleZh": "蔬菜切割系列", "image": "/images/catalog/page-03.png" },
+    { "title": "Vegetable Cutting And Slicing Machines", "titleZh": "蔬菜切割与切片设备", "image": "/images/catalog/page-04.png" },
+    { "title": "Root Vegetable Processing Machines", "titleZh": "根茎类蔬菜加工设备", "image": "/images/catalog/page-05.png" },
+    { "title": "Cleaning And Meat Processing Machines", "titleZh": "清洗与肉类加工设备", "image": "/images/catalog/page-06.png" },
+    { "title": "Meat Processing And Noodle Machines", "titleZh": "肉类加工与面食设备", "image": "/images/catalog/page-07.png" },
+    { "title": "Dough Mixer And Steamed Bun Machines", "titleZh": "和面与馒头加工设备", "image": "/images/catalog/page-08.png" },
+    { "title": "Dumpling And Dough Processing Machines", "titleZh": "饺子与面团加工设备", "image": "/images/catalog/page-09.png" },
+    { "title": "Filling And Mixing Machines", "titleZh": "馅料与搅拌设备", "image": "/images/catalog/page-10.png" }
+  ]
+}

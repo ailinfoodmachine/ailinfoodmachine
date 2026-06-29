@@ -1,0 +1,15 @@
+{
+  "download": "/downloads/ailin-qualifications-2025.pdf",
+  "items": [
+    { "title": "Qualification File Cover", "titleZh": "资质文件封面", "image": "/images/certificates/qualifications/page-01.png" },
+    { "title": "Qualification Directory", "titleZh": "资质目录", "image": "/images/certificates/qualifications/page-02.png" },
+    { "title": "Business License", "titleZh": "营业执照", "image": "/images/certificates/qualifications/page-03.png" },
+    { "title": "Bank Account Permit", "titleZh": "开户许可证", "image": "/images/certificates/qualifications/page-04.png" },
+    { "title": "Trademark Registration", "titleZh": "商标注册证明", "image": "/images/certificates/qualifications/page-05.png" },
+    { "title": "Taxpayer Qualification", "titleZh": "纳税人资质", "image": "/images/certificates/qualifications/page-06.png" },
+    { "title": "Customs Filing", "titleZh": "海关备案", "image": "/images/certificates/qualifications/page-07.png" },
+    { "title": "Credit Enterprise Certificate", "titleZh": "信用企业证书", "image": "/images/certificates/qualifications/page-09.png" },
+    { "title": "Quality Service Credit Unit", "titleZh": "质量服务诚信单位", "image": "/images/certificates/qualifications/page-15.png" },
+    { "title": "CE Certification", "titleZh": "CE 认证", "image": "/images/certificates/qualifications/page-23.png" }
+  ]
+}

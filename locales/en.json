@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "catalog": "Catalog",
+    "about": "About Us",
+    "contact": "Contact",
+    "quote": "Get Quote"
+  },
+  "home": {
+    "heroTitle": "Professional Food Processing Machinery Supplier",
+    "heroSubtitle": "Allen Green provides vegetable cutting, cleaning, peeling, meat processing, and dough preparation machines for commercial kitchens and food factories.",
+    "viewProducts": "View Products",
+    "getQuote": "Get A Quote",
+    "advantagesTitle": "Built For Efficient Food Preparation",
+    "productsTitle": "Featured Machines",
+    "strengthTitle": "Factory Strength",
+    "strengthText": "Jinan Ailin Machinery Equipment Co., Ltd. develops practical food processing equipment with stable stainless-steel structures, flexible cutter configurations, and responsive service for overseas buyers.",
+    "logosTitle": "Trusted By Food Processing Customers"
+  },
+  "advantages": [
+    { "title": "Stainless Structure", "text": "Food-contact designs prepared for commercial kitchen and processing environments." },
+    { "title": "Flexible Cutting", "text": "Multiple blade options support slices, strips, dices, segments, and cubes." },
+    { "title": "Export Ready", "text": "Product manuals, certificates, and remote support are prepared for overseas customers." },
+    { "title": "Practical Service", "text": "Machine selection, process advice, packing guidance, and quick communication." }
+  ],
+  "products": {
+    "title": "Products",
+    "subtitle": "Select a category to review representative Allen Green machines and core parameters.",
+    "all": "All Machinery",
+    "directory": "Product Directory",
+    "available": "{count} machines available",
+    "models": "Models",
+    "series": "Series",
+    "catalogReady": "Catalog Ready",
+    "viewDetails": "View Details",
+    "learnMore": "Learn More",
+    "categories": {
+      "vegetable-cutting": "Vegetable Cutting",
+      "cleaning-peeling": "Cleaning & Peeling",
+      "meat-processing": "Meat Processing",
+      "dough-processing": "Dough Processing"
+    }
+  },
+  "detail": {
+    "parameters": "Core Parameters",
+    "description": "Product Description",
+    "descriptionText": "This machine is designed for food preparation environments that need stable operation, easy cleaning, and repeatable processing results. Configuration, cutter sets, and production flow can be discussed according to your material, output, and workshop layout.",
+    "quoteTitle": "Request Machine Quotation"
+  },
+  "about": {
+    "title": "About Jinan Ailin Machinery Equipment Co., Ltd.",
+    "intro": "Jinan Ailin Machinery Equipment Co., Ltd. focuses on food processing machinery for commercial kitchens, catering companies, and food factories. The company provides vegetable processing, meat processing, dough preparation, and supporting kitchen equipment.",
+    "timelineTitle": "Development History",
+    "exportTitle": "Export Markets",
+    "countries": "United States, Mexico, Brazil, Turkey, India, Vietnam, Indonesia, Egypt, Italy, Spain, Poland, South Africa"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Send your material, required output, and target cutting effect. Our team will recommend suitable machine models.",
+    "infoTitle": "Company Information",
+    "formTitle": "Send Inquiry"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company Name",
+    "country": "Country",
+    "category": "Product Category",
+    "message": "Inquiry Content",
+    "submit": "Submit Inquiry",
+    "success": "Inquiry logged in console. Ready for EmailJS or Formspree integration."
+  },
+  "footer": {
+    "brief": "Food processing machinery for vegetable cutting, cleaning, peeling, meat processing, and dough preparation.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact"
+  }
+}
