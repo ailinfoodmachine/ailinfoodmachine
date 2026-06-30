@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "catalog": "Catálogo",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "quote": "Solicitar cotización"
+  },
+  "home": {
+    "heroTitle": "Proveedor profesional de maquinaria para procesamiento de alimentos",
+    "heroSubtitle": "Allen Green ofrece máquinas para corte de verduras, limpieza, pelado, procesamiento de carne y preparación de masa para cocinas comerciales y fábricas de alimentos.",
+    "viewProducts": "Ver productos",
+    "getQuote": "Solicitar cotización",
+    "advantagesTitle": "Diseñado para una preparación eficiente de alimentos",
+    "productsTitle": "Máquinas destacadas",
+    "strengthTitle": "Capacidad de fábrica",
+    "strengthText": "Jinan Ailin Machinery Equipment Co., Ltd. desarrolla equipos prácticos para procesamiento de alimentos con estructuras estables de acero inoxidable, configuraciones flexibles de cuchillas y servicio rápido para compradores internacionales.",
+    "logosTitle": "Clientes de procesamiento de alimentos"
+  },
+  "advantages": [
+    { "title": "Estructura inoxidable", "text": "Diseños para contacto alimentario preparados para cocinas comerciales y plantas de procesamiento." },
+    { "title": "Corte flexible", "text": "Múltiples opciones de cuchillas para rodajas, tiras, cubos, segmentos y cortes personalizados." },
+    { "title": "Listo para exportación", "text": "Catálogos, certificados y soporte remoto preparados para clientes internacionales." },
+    { "title": "Servicio práctico", "text": "Selección de máquina, asesoría de proceso, guía de embalaje y comunicación rápida." }
+  ],
+  "products": {
+    "title": "Productos",
+    "subtitle": "Seleccione una categoría para revisar máquinas representativas de Allen Green y sus parámetros principales.",
+    "all": "Toda la maquinaria",
+    "directory": "Directorio de productos",
+    "available": "{count} máquinas disponibles",
+    "models": "Modelos",
+    "series": "Series",
+    "catalogReady": "Catálogo disponible",
+    "viewDetails": "Ver detalles",
+    "learnMore": "Más información",
+    "categories": {
+      "vegetable-cutting": "Corte de verduras",
+      "cleaning-peeling": "Limpieza y pelado",
+      "meat-processing": "Procesamiento de carne",
+      "dough-processing": "Procesamiento de masa"
+    }
+  },
+  "detail": {
+    "parameters": "Parámetros principales",
+    "description": "Descripción del producto",
+    "descriptionText": "Esta máquina está diseñada para entornos de preparación de alimentos que requieren operación estable, limpieza sencilla y resultados repetibles. La configuración, las cuchillas y el flujo de producción se pueden discutir según su material, capacidad y distribución del taller.",
+    "quoteTitle": "Solicitar cotización de la máquina"
+  },
+  "about": {
+    "title": "Acerca de Jinan Ailin Machinery Equipment Co., Ltd.",
+    "intro": "Jinan Ailin Machinery Equipment Co., Ltd. se enfoca en maquinaria de procesamiento de alimentos para cocinas comerciales, empresas de catering y fábricas de alimentos.",
+    "timelineTitle": "Historia de desarrollo",
+    "exportTitle": "Mercados de exportación",
+    "countries": "Estados Unidos, México, Brasil, Turquía, India, Vietnam, Indonesia, Egipto, Italia, España, Polonia, Sudáfrica"
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Envíe su material, capacidad requerida y efecto de corte objetivo. Nuestro equipo recomendará modelos adecuados.",
+    "infoTitle": "Información de la empresa",
+    "formTitle": "Enviar consulta"
+  },
+  "form": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "company": "Empresa",
+    "country": "País",
+    "category": "Categoría de producto",
+    "message": "Contenido de la consulta",
+    "submit": "Enviar consulta",
+    "success": "Consulta enviada"
+  },
+  "footer": {
+    "brief": "Maquinaria de procesamiento de alimentos para corte de verduras, limpieza, pelado, carne y masa.",
+    "quickLinks": "Enlaces rápidos",
+    "contact": "Contacto"
+  }
+}

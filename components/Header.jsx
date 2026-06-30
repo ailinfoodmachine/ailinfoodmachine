@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { useLanguage } from "@/components/LanguageProvider";
+import { languages, useLanguage } from "@/components/LanguageProvider";
 import settings from "@/data/settings.json";
 
 const navItems = [
@@ -13,6 +13,23 @@ const navItems = [
   { href: "/about", key: "about" },
   { href: "/contact", key: "contact" }
 ];
+
+function LanguageSelect({ lang, setLang, className }) {
+  return (
+    <select
+      aria-label="Language"
+      className={className}
+      value={lang}
+      onChange={(event) => setLang(event.target.value)}
+    >
+      {languages.map((item) => (
+        <option key={item.code} value={item.code}>
+          {item.label}
+        </option>
+      ))}
+    </select>
+  );
+}
 
 export default function Header() {
   const { lang, setLang, t } = useLanguage();
@@ -43,15 +60,11 @@ export default function Header() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <select
-            aria-label="Language"
+          <LanguageSelect
+            lang={lang}
+            setLang={setLang}
             className="border border-slate-300 bg-white px-3 py-2 text-sm font-semibold"
-            value={lang}
-            onChange={(event) => setLang(event.target.value)}
-          >
-            <option value="en">EN</option>
-            <option value="zh">中文</option>
-          </select>
+          />
           <Link
             href="/contact"
             className="bg-signal px-5 py-3 text-sm font-black uppercase text-white transition hover:bg-orange-600"
@@ -84,15 +97,11 @@ export default function Header() {
               </Link>
             ))}
             <div className="flex gap-3 pt-2">
-              <select
-                aria-label="Language"
+              <LanguageSelect
+                lang={lang}
+                setLang={setLang}
                 className="min-h-11 flex-1 border border-slate-300 bg-white px-3 text-sm font-semibold"
-                value={lang}
-                onChange={(event) => setLang(event.target.value)}
-              >
-                <option value="en">EN</option>
-                <option value="zh">中文</option>
-              </select>
+              />
               <Link
                 href="/contact"
                 className="grid min-h-11 flex-1 place-items-center bg-signal px-4 text-sm font-black uppercase text-white"

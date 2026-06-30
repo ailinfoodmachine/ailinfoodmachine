@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "catalog": "Catalogue",
+    "about": "À propos",
+    "contact": "Contact",
+    "quote": "Demander un devis"
+  },
+  "home": {
+    "heroTitle": "Fournisseur professionnel de machines de transformation alimentaire",
+    "heroSubtitle": "Allen Green fournit des machines de coupe de légumes, lavage, épluchage, transformation de viande et préparation de pâte pour cuisines professionnelles et usines alimentaires.",
+    "viewProducts": "Voir les produits",
+    "getQuote": "Demander un devis",
+    "advantagesTitle": "Conçu pour une préparation alimentaire efficace",
+    "productsTitle": "Machines principales",
+    "strengthTitle": "Capacité de l'usine",
+    "strengthText": "Jinan Ailin Machinery Equipment Co., Ltd. développe des équipements pratiques de transformation alimentaire avec structures stables en acier inoxydable, configurations flexibles de couteaux et service réactif pour les acheteurs étrangers.",
+    "logosTitle": "Clients de l'industrie alimentaire"
+  },
+  "advantages": [
+    { "title": "Structure inoxydable", "text": "Conceptions adaptées au contact alimentaire pour cuisines commerciales et environnements de transformation." },
+    { "title": "Coupe flexible", "text": "Plusieurs options de lames pour tranches, lamelles, dés, segments et cubes." },
+    { "title": "Prêt à l'export", "text": "Catalogues, certificats et assistance à distance préparés pour les clients internationaux." },
+    { "title": "Service pratique", "text": "Sélection de machines, conseils de processus, emballage et communication rapide." }
+  ],
+  "products": {
+    "title": "Produits",
+    "subtitle": "Sélectionnez une catégorie pour consulter les machines Allen Green et leurs paramètres principaux.",
+    "all": "Toutes les machines",
+    "directory": "Répertoire produits",
+    "available": "{count} machines disponibles",
+    "models": "Modèles",
+    "series": "Séries",
+    "catalogReady": "Catalogue disponible",
+    "viewDetails": "Voir détails",
+    "learnMore": "En savoir plus",
+    "categories": {
+      "vegetable-cutting": "Coupe de légumes",
+      "cleaning-peeling": "Lavage et épluchage",
+      "meat-processing": "Transformation de viande",
+      "dough-processing": "Préparation de pâte"
+    }
+  },
+  "detail": {
+    "parameters": "Paramètres principaux",
+    "description": "Description du produit",
+    "descriptionText": "Cette machine est conçue pour les environnements de préparation alimentaire nécessitant un fonctionnement stable, un nettoyage facile et des résultats répétables. La configuration, les jeux de couteaux et le flux de production peuvent être discutés selon votre matière, capacité et atelier.",
+    "quoteTitle": "Demander un devis machine"
+  },
+  "about": {
+    "title": "À propos de Jinan Ailin Machinery Equipment Co., Ltd.",
+    "intro": "Jinan Ailin Machinery Equipment Co., Ltd. se concentre sur les machines de transformation alimentaire pour cuisines professionnelles, sociétés de restauration et usines alimentaires.",
+    "timelineTitle": "Historique de développement",
+    "exportTitle": "Marchés d'exportation",
+    "countries": "États-Unis, Mexique, Brésil, Turquie, Inde, Vietnam, Indonésie, Égypte, Italie, Espagne, Pologne, Afrique du Sud"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Envoyez votre matière, le rendement requis et l'effet de coupe souhaité. Notre équipe recommandera des modèles adaptés.",
+    "infoTitle": "Informations société",
+    "formTitle": "Envoyer une demande"
+  },
+  "form": {
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "company": "Société",
+    "country": "Pays",
+    "category": "Catégorie produit",
+    "message": "Contenu de la demande",
+    "submit": "Envoyer la demande",
+    "success": "Demande envoyée"
+  },
+  "footer": {
+    "brief": "Machines de transformation alimentaire pour coupe de légumes, lavage, épluchage, viande et pâte.",
+    "quickLinks": "Liens rapides",
+    "contact": "Contact"
+  }
+}
