@@ -21,7 +21,7 @@ export default function InquiryForm({ mode = "simple", productName = "" }) {
       <input type="hidden" name="_subject" value="New inquiry from ailinfoodmachine.com" />
       <input type="hidden" name="_template" value="table" />
       <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value="https://www.ailinfoodmachine.com/contact" />
+      <input type="hidden" name="_next" value="https://www.ailinfoodmachine.com/thank-you" />
       {productName && <input type="hidden" name="product" value={productName} />}
 
       <div className="grid gap-4 md:grid-cols-2">

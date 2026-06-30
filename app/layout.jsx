@@ -4,6 +4,7 @@ import { LanguageProvider } from "@/components/LanguageProvider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingContact from "@/components/FloatingContact";
+import settings from "@/data/settings.json";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -12,9 +13,37 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Jinan Ailin Machinery Equipment Co., Ltd. | Cookware Machinery",
+  metadataBase: new URL(settings.siteUrl),
+  title: {
+    default: "Jinan Ailin Machinery Equipment Co., Ltd. | Food Processing Machinery",
+    template: "%s | Jinan Ailin Machinery"
+  },
   description:
-    "Professional cookware and food processing machinery supplier for global manufacturing customers."
+    "Professional food processing machinery supplier for vegetable cutting, cleaning, peeling, meat processing, and dough preparation equipment.",
+  alternates: {
+    canonical: "/"
+  },
+  openGraph: {
+    title: "Jinan Ailin Machinery Equipment Co., Ltd.",
+    description:
+      "Food processing machinery for global manufacturers, central kitchens, and commercial food factories.",
+    url: settings.siteUrl,
+    siteName: "Jinan Ailin Machinery",
+    images: [
+      {
+        url: "/images/catalog/page-02.png",
+        width: 1207,
+        height: 825,
+        alt: "Ailin food processing machinery"
+      }
+    ],
+    locale: "en_US",
+    type: "website"
+  },
+  robots: {
+    index: true,
+    follow: true
+  }
 };
 
 export default function RootLayout({ children }) {

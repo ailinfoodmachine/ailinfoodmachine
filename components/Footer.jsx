@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="grid gap-3 text-sm text-slate-300">
             <span className="flex gap-3"><Mail size={18} />{settings.contact.email}</span>
             <span className="flex gap-3"><Phone size={18} />{settings.contact.whatsapp}</span>
-            <span className="flex gap-3"><MapPin size={18} />{settings.contact.address}</span>
+            <span className="flex gap-3"><MapPin size={18} />{lang === "zh" ? settings.contact.addressZh : settings.contact.address}</span>
           </div>
         </div>
         <div>
