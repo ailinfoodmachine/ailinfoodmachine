@@ -1,25 +1,29 @@
 "use client";
 
-import { useState } from "react";
 import { Send } from "lucide-react";
 import { useLanguage } from "@/components/LanguageProvider";
 import { productCategories } from "@/lib/data";
 
 export default function InquiryForm({ mode = "simple", productName = "" }) {
   const { lang, t } = useLanguage();
-  const [sent, setSent] = useState(false);
-
-  function handleSubmit(event) {
-    event.preventDefault();
-    const formData = new FormData(event.currentTarget);
-    const payload = Object.fromEntries(formData.entries());
-    console.log("Inquiry submitted:", { productName, ...payload });
-    setSent(true);
-    event.currentTarget.reset();
-  }
+  const defaultMessage = productName
+    ? lang === "zh"
+      ? `我想咨询 ${productName}。`
+      : `I am interested in ${productName}. `
+    : "";
 
   return (
-    <form onSubmit={handleSubmit} className="grid gap-4">
+    <form
+      action="https://formsubmit.co/814611970@qq.com"
+      method="POST"
+      className="grid gap-4"
+    >
+      <input type="hidden" name="_subject" value="New inquiry from ailinfoodmachine.com" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="https://www.ailinfoodmachine.com/contact" />
+      {productName && <input type="hidden" name="product" value={productName} />}
+
       <div className="grid gap-4 md:grid-cols-2">
         <input className="field" name="name" placeholder={t.form.name} required minLength={2} />
         <input className="field" name="email" type="email" placeholder={t.form.email} required />
@@ -34,7 +38,9 @@ export default function InquiryForm({ mode = "simple", productName = "" }) {
         <input className="field" name="country" placeholder={t.form.country} required />
         {mode === "full" && (
           <select className="field" name="category" required defaultValue="">
-            <option value="" disabled>{t.form.category}</option>
+            <option value="" disabled>
+              {t.form.category}
+            </option>
             {productCategories.map((category) => (
               <option key={category} value={category}>
                 {t.products.categories[category]}
@@ -49,7 +55,7 @@ export default function InquiryForm({ mode = "simple", productName = "" }) {
         placeholder={t.form.message}
         required
         minLength={10}
-        defaultValue={productName ? (lang === "zh" ? `我想咨询 ${productName}。` : `I am interested in ${productName}. `) : ""}
+        defaultValue={defaultMessage}
       />
       <button
         type="submit"
@@ -58,7 +64,6 @@ export default function InquiryForm({ mode = "simple", productName = "" }) {
         <Send size={18} />
         {t.form.submit}
       </button>
-      {sent && <p className="text-sm font-semibold text-green-700">{t.form.success}</p>}
     </form>
   );
 }
