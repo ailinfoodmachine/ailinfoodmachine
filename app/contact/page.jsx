@@ -67,20 +67,20 @@ export default function ContactPage() {
           <div className="border border-white/15 bg-white/10 p-6 backdrop-blur">
             <div className="grid grid-cols-[96px_1fr] gap-5">
               <Image
-                src={settings.contact.wechatQr}
-                alt={lang === "zh" ? "微信二维码" : "WeChat QR code"}
-                width={900}
-                height={1100}
-                className="h-28 w-24 bg-white object-cover"
+                src={settings.contact.whatsappQr}
+                alt="WhatsApp QR code"
+                width={531}
+                height={543}
+                className="h-28 w-28 bg-white object-contain"
               />
               <div>
                 <p className="text-sm font-black uppercase text-slate-200">
-                  {lang === "zh" ? "微信联系" : "WeChat"}
+                  WhatsApp QR
                 </p>
                 <p className="mt-3 text-sm leading-7 text-slate-300">
                   {lang === "zh"
-                    ? "扫码添加微信，发送物料、产量和切割效果要求。"
-                    : "Scan to add WeChat and send material, output, and cutting requirements."}
+                    ? "扫描二维码，通过 WhatsApp 发送物料、产量和设备需求。"
+                    : "Scan the QR code to contact us on WhatsApp and send your material, output, and machine requirements."}
                 </p>
               </div>
             </div>

@@ -39,12 +39,12 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <h3 className="mb-4 text-sm font-black uppercase">{lang === "zh" ? "微信" : "WeChat"}</h3>
+          <h3 className="mb-4 text-sm font-black uppercase">WhatsApp QR</h3>
           <Image
-            src={settings.contact.wechatQr}
-            alt={lang === "zh" ? "微信二维码" : "WeChat QR code"}
-            width={900}
-            height={1100}
+            src={settings.contact.whatsappQr}
+            alt="WhatsApp QR code"
+            width={531}
+            height={543}
             className="mb-5 h-auto w-32 border border-slate-600 bg-white object-contain p-1"
           />
           <h3 className="mb-4 text-sm font-black uppercase">{lang === "zh" ? "社交媒体" : "Social"}</h3>
