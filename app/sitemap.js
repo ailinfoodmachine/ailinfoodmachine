@@ -9,7 +9,8 @@ export default function sitemap() {
     "/catalog",
     "/about",
     "/contact",
-    "/resources/how-to-choose-commercial-vegetable-cutting-machine"
+    "/resources/how-to-choose-commercial-vegetable-cutting-machine",
+    "/resources/commercial-potato-peeling-machine-buying-guide"
   ];
   const productRoutes = getProducts().map((product) => `/products/${product.id}`);
 
