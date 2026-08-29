@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Award, Factory, Globe2, Headphones, ShieldCheck } from "lucide-react";
 import ButtonLink from "@/components/ButtonLink";
+import Link from "next/link";
 import CatalogPreview from "@/components/CatalogPreview";
 import ProductCard from "@/components/ProductCard";
 import { useLanguage } from "@/components/LanguageProvider";
@@ -102,6 +103,27 @@ export default function HomePage() {
       </section>
 
       <CatalogPreview />
+
+      <section className="border-y border-slate-200 bg-white py-14">
+        <div className="section-shell grid gap-5 md:grid-cols-[1fr_auto] md:items-center">
+          <div>
+            <p className="text-sm font-black uppercase text-signal">Buyer Resource</p>
+            <h2 className="mt-2 text-2xl font-black text-graphite md:text-3xl">
+              How to Choose a Commercial Vegetable Cutting Machine
+            </h2>
+            <p className="mt-3 max-w-3xl leading-7 text-steel">
+              A practical procurement checklist covering raw materials, target cuts, workflow,
+              cleaning, utility requirements, testing, and the details to include in an RFQ.
+            </p>
+          </div>
+          <Link
+            href="/resources/how-to-choose-commercial-vegetable-cutting-machine"
+            className="inline-flex min-h-12 items-center justify-center bg-graphite px-6 text-sm font-black uppercase text-white transition hover:bg-slate-700"
+          >
+            Read Buyer Guide
+          </Link>
+        </div>
+      </section>
 
       <section className="py-16 md:py-20">
         <div className="section-shell grid gap-10 lg:grid-cols-2 lg:items-center">

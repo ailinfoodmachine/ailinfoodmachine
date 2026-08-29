@@ -20,7 +20,7 @@ export default function ProductGallery({ product }) {
         />
       </div>
       <div className="grid grid-cols-3 gap-3">
-        {product.gallery.map((image) => (
+        {product.gallery.map((image, index) => (
           <button
             type="button"
             key={image}
@@ -28,9 +28,16 @@ export default function ProductGallery({ product }) {
             className={`relative aspect-[4/3] overflow-hidden border bg-slate-100 ${
               active === image ? "border-signal" : "border-slate-200"
             }`}
-            aria-label={`View ${product.name} image`}
+            aria-label={`View ${product.name} image ${index + 1} of ${product.gallery.length}`}
+            aria-pressed={active === image}
           >
-            <Image src={image} alt="" width={240} height={180} className="h-full w-full object-contain" />
+            <Image
+              src={image}
+              alt={`${displayName} thumbnail ${index + 1}`}
+              width={240}
+              height={180}
+              className="h-full w-full object-contain"
+            />
           </button>
         ))}
       </div>

@@ -58,6 +58,14 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const verifiedSocialProfiles = Object.values(settings.social).filter((url) => {
+    try {
+      const parsed = new URL(url);
+      return parsed.pathname !== "/";
+    } catch {
+      return false;
+    }
+  });
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -72,11 +80,7 @@ export default function RootLayout({ children }) {
       addressRegion: "Shandong",
       addressCountry: "CN"
     },
-    sameAs: [
-      settings.social.linkedin,
-      settings.social.youtube,
-      settings.social.facebook
-    ]
+    ...(verifiedSocialProfiles.length > 0 && { sameAs: verifiedSocialProfiles })
   };
   const websiteJsonLd = {
     "@context": "https://schema.org",

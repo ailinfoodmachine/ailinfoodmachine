@@ -78,13 +78,15 @@ export default function Header() {
           className="grid h-11 w-11 place-items-center border border-slate-300 lg:hidden"
           onClick={() => setOpen((value) => !value)}
           aria-label="Toggle navigation"
+          aria-expanded={open}
+          aria-controls="mobile-navigation"
         >
           {open ? <X size={22} /> : <Menu size={22} />}
         </button>
       </div>
 
       {open && (
-        <div className="border-t border-slate-200 bg-white lg:hidden">
+        <div id="mobile-navigation" className="border-t border-slate-200 bg-white lg:hidden">
           <div className="section-shell grid gap-3 py-5">
             {navItems.map((item) => (
               <Link
