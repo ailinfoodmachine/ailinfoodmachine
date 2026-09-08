@@ -12,7 +12,8 @@ export default function sitemap() {
     "/resources/how-to-choose-commercial-vegetable-cutting-machine",
     "/resources/commercial-potato-peeling-machine-buying-guide",
     "/resources/commercial-dough-mixer-buying-guide",
-    "/resources/commercial-meat-grinder-buying-guide"
+    "/resources/commercial-meat-grinder-buying-guide",
+    "/resources/commercial-meat-cutter-selection-guide"
   ];
   const productRoutes = getProducts().map((product) => `/products/${product.id}`);
 
