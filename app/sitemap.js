@@ -14,7 +14,8 @@ export default function sitemap() {
     "/resources/commercial-dough-mixer-buying-guide",
     "/resources/commercial-meat-grinder-buying-guide",
     "/resources/commercial-meat-cutter-selection-guide",
-    "/resources/commercial-dumpling-machine-rfq-guide"
+    "/resources/commercial-dumpling-machine-rfq-guide",
+    "/resources/commercial-vegetable-dicer-rfq-guide"
   ];
   const productRoutes = getProducts().map((product) => `/products/${product.id}`);
 
