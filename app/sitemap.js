@@ -16,7 +16,8 @@ export default function sitemap() {
     "/resources/commercial-meat-cutter-selection-guide",
     "/resources/commercial-dumpling-machine-rfq-guide",
     "/resources/commercial-vegetable-dicer-rfq-guide",
-    "/resources/potato-peeling-machine-saudi-arabia"
+    "/resources/potato-peeling-machine-saudi-arabia",
+    "/resources/vegetable-cutting-machine-saudi-arabia"
   ];
   const productRoutes = getProducts().map((product) => `/products/${product.id}`);
 

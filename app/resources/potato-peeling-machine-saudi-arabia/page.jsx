@@ -191,6 +191,7 @@ export default function PotatoPeelingMachineSaudiArabiaGuide() {
               <Link href="/contact" className="mt-6 inline-flex min-h-12 w-full items-center justify-center bg-signal px-5 text-sm font-black uppercase text-white hover:bg-orange-600">Request a Quote</Link>
               <Link href="/products/sh30-potato-peeling-machine" className="mt-3 inline-flex min-h-12 w-full items-center justify-center border border-graphite px-5 text-center text-sm font-black uppercase text-graphite hover:bg-white">View SH30 Product</Link>
               <Link href="/resources/commercial-potato-peeling-machine-buying-guide" className="mt-3 inline-flex min-h-12 w-full items-center justify-center border border-slate-300 px-5 text-center text-sm font-black uppercase text-graphite hover:bg-white">General Buying Guide</Link>
+              <Link href="/resources/vegetable-cutting-machine-saudi-arabia" className="mt-3 inline-flex min-h-12 w-full items-center justify-center border border-slate-300 px-5 text-center text-sm font-black uppercase text-graphite hover:bg-white">Saudi Vegetable Cutter Guide</Link>
             </aside>
           </div>
         </div>
