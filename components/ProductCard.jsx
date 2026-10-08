@@ -7,9 +7,9 @@ import { useLanguage } from "@/components/LanguageProvider";
 
 export default function ProductCard({ product, compact = false }) {
   const { lang, t } = useLanguage();
-  const name = lang === "zh" ? product.nameZh || product.name : product.name;
-  const summary = lang === "zh" ? product.summaryZh || product.summary : product.summary;
-  const coreParam = lang === "zh" ? product.coreParamZh || product.coreParam : product.coreParam;
+  const name = product.name;
+  const summary = product.summary;
+  const coreParam = product.coreParam;
 
   return (
     <article className="group border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-industrial">

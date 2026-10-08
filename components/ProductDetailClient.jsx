@@ -9,16 +9,13 @@ import settings from "@/data/settings.json";
 export default function ProductDetailClient({ product, children }) {
   const { lang, t } = useLanguage();
   const [gallery, form] = Array.isArray(children) ? children : [children, null];
-  const name = lang === "zh" ? product.nameZh || product.name : product.name;
-  const summary = lang === "zh" ? product.summaryZh || product.summary : product.summary;
-  const servicePoints =
-    lang === "zh"
-      ? ["物料测试与刀具选型", "产量需求与车间布局沟通", "包装发货与远程技术支持"]
-      : [
-          "Material testing and cutter selection",
-          "Output and workshop layout discussion",
-          "Packing, shipping, and remote support"
-        ];
+  const name = product.name;
+  const summary = product.summary;
+  const servicePoints = [
+    "Material testing and cutter selection",
+    "Output and workshop layout discussion",
+    "Packing, shipping, and remote support"
+  ];
 
   return (
     <>
@@ -62,14 +59,14 @@ export default function ProductDetailClient({ product, children }) {
                 className="inline-flex min-h-12 items-center justify-center gap-2 bg-graphite px-5 text-sm font-black uppercase text-white transition hover:bg-slate-800"
               >
                 <MessageCircle size={18} />
-                {lang === "zh" ? "WhatsApp 咨询" : "WhatsApp"}
+                WhatsApp
               </a>
               <Link
                 href={catalog.download}
                 className="inline-flex min-h-12 items-center justify-center gap-2 border border-graphite px-5 text-sm font-black uppercase text-graphite transition hover:bg-graphite hover:text-white"
               >
                 <Download size={18} />
-                {lang === "zh" ? "下载画册" : "Catalog PDF"}
+                Catalog PDF
               </Link>
             </div>
           </div>

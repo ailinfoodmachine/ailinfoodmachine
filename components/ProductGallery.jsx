@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function ProductGallery({ product }) {
   const [active, setActive] = useState(product.gallery[0]);
-  const displayName = product.nameZh || product.name;
+  const displayName = product.name;
 
   return (
     <div className="grid gap-4">

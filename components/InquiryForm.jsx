@@ -3,6 +3,7 @@
 import { Send } from "lucide-react";
 import { useLanguage } from "@/components/LanguageProvider";
 import { productCategories } from "@/lib/data";
+import settings from "@/data/settings.json";
 
 export default function InquiryForm({ mode = "simple", productName = "" }) {
   const { lang, t } = useLanguage();
@@ -14,7 +15,7 @@ export default function InquiryForm({ mode = "simple", productName = "" }) {
 
   return (
     <form
-      action="https://formsubmit.co/814611970@qq.com"
+      action={`https://formsubmit.co/${settings.contact.email}`}
       method="POST"
       className="grid gap-4"
     >

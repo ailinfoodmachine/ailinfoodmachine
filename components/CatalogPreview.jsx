@@ -10,12 +10,9 @@ export default function CatalogPreview({ limit = 3 }) {
   const { lang } = useLanguage();
   const pages = catalog.pages.slice(1, 1 + limit);
 
-  const title = lang === "zh" ? "产品画册" : "Product Catalog";
-  const subtitle =
-    lang === "zh"
-      ? "已接入真实画册页面，客户可快速查看设备系列并下载完整 PDF。"
-      : "Real catalog pages are available for quick review, with the full PDF ready to download.";
-  const eyebrow = lang === "zh" ? "艾霖梓瑞产品资料" : "Allen Green Catalog";
+  const title = "Product Catalog";
+  const subtitle = "English catalog pages are available for quick review, with the full PDF ready to download.";
+  const eyebrow = "Ailin Machinery Catalog";
 
   return (
     <section className="bg-white py-16 md:py-20">
@@ -33,20 +30,20 @@ export default function CatalogPreview({ limit = 3 }) {
               href="/catalog"
               className="inline-flex min-h-12 items-center justify-center border border-graphite px-5 text-sm font-black uppercase text-graphite transition hover:bg-graphite hover:text-white"
             >
-              {lang === "zh" ? "查看画册" : "View Catalog"}
+              View Catalog
             </Link>
             <a
               href={catalog.download}
               className="inline-flex min-h-12 items-center justify-center gap-2 bg-signal px-5 text-sm font-black uppercase text-white transition hover:bg-orange-600"
             >
               <Download size={18} />
-              {lang === "zh" ? "下载 PDF" : "PDF"}
+              Download PDF
             </a>
           </div>
         </div>
         <div className="grid gap-5 md:grid-cols-3">
           {pages.map((page) => {
-            const pageTitle = lang === "zh" ? page.titleZh : page.title;
+            const pageTitle = page.title;
             return (
               <Link key={page.image} href="/catalog" className="group block border border-slate-200 bg-slate-50 p-3 transition hover:-translate-y-1 hover:shadow-industrial">
                 <div className="relative aspect-[1207/824] overflow-hidden bg-white">

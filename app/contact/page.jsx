@@ -66,13 +66,15 @@ export default function ContactPage() {
           </div>
           <div className="border border-white/15 bg-white/10 p-6 backdrop-blur">
             <div className="grid grid-cols-[96px_1fr] gap-5">
-              <Image
-                src={settings.contact.whatsappQr}
-                alt="WhatsApp QR code"
-                width={531}
-                height={543}
-                className="h-28 w-28 bg-white object-contain"
-              />
+              <a href={settings.contact.whatsappUrl} aria-label="Open WhatsApp chat">
+                <Image
+                  src={settings.contact.whatsappQr}
+                  alt={`Scan to contact WhatsApp ${settings.contact.whatsapp}`}
+                  width={531}
+                  height={543}
+                  className="h-28 w-28 bg-white object-contain"
+                />
+              </a>
               <div>
                 <p className="text-sm font-black uppercase text-slate-200">
                   WhatsApp QR

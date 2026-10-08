@@ -12,12 +12,8 @@ export default function CatalogPage() {
   return (
     <>
       <PageHero
-        title={lang === "zh" ? "产品画册" : "Product Catalog"}
-        subtitle={
-          lang === "zh"
-            ? "以下内容来自艾霖梓瑞产品手册，可用于快速了解设备系列和基础参数。"
-            : "The following pages are from the Allen Green product manual for a quick review of machine series and basic parameters."
-        }
+        title="Product Catalog"
+        subtitle="The following English pages provide a quick review of machine series and catalog parameters. Confirm the final configuration in your quotation."
       />
       <section className="py-12 md:py-16">
         <div className="section-shell">
@@ -27,12 +23,12 @@ export default function CatalogPage() {
               className="inline-flex min-h-12 items-center justify-center gap-2 bg-signal px-5 text-sm font-black uppercase text-white transition hover:bg-orange-600"
             >
               <Download size={18} />
-              {lang === "zh" ? "下载完整 PDF" : "Download PDF"}
+              Download PDF
             </a>
           </div>
           <div className="grid gap-6">
             {catalog.pages.map((page, index) => {
-              const pageTitle = lang === "zh" ? page.titleZh : page.title;
+              const pageTitle = page.title;
               return (
                 <article key={page.image} className="border border-slate-200 bg-white p-3 shadow-sm">
                   <div className="mb-3 flex items-center justify-between gap-4">

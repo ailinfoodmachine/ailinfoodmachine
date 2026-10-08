@@ -33,20 +33,23 @@ export default function Footer() {
         <div>
           <h3 className="mb-4 text-sm font-black uppercase">{t.footer.contact}</h3>
           <div className="grid gap-3 text-sm text-slate-300">
-            <span className="flex gap-3"><Mail size={18} />{settings.contact.email}</span>
-            <span className="flex gap-3"><Phone size={18} />{settings.contact.whatsapp}</span>
+            <a className="flex gap-3 hover:text-white" href={`mailto:${settings.contact.email}`}><Mail size={18} />{settings.contact.email}</a>
+            <a className="flex gap-3 hover:text-white" href={settings.contact.whatsappUrl}><Phone size={18} />{settings.contact.whatsapp}</a>
             <span className="flex gap-3"><MapPin size={18} />{lang === "zh" ? settings.contact.addressZh : settings.contact.address}</span>
           </div>
         </div>
         <div>
           <h3 className="mb-4 text-sm font-black uppercase">WhatsApp QR</h3>
-          <Image
-            src={settings.contact.whatsappQr}
-            alt="WhatsApp QR code"
-            width={531}
-            height={543}
-            className="mb-5 h-auto w-32 border border-slate-600 bg-white object-contain p-1"
-          />
+          <a href={settings.contact.whatsappUrl} aria-label="Chat with Ailin Machinery on WhatsApp">
+            <Image
+              src={settings.contact.whatsappQr}
+              alt={`Scan to contact WhatsApp ${settings.contact.whatsapp}`}
+              width={531}
+              height={543}
+              className="mb-2 h-auto w-32 border border-slate-600 bg-white object-contain p-1"
+            />
+            <span className="mb-5 block text-xs text-slate-300">wa.me/8615588869611</span>
+          </a>
           <h3 className="mb-4 text-sm font-black uppercase">{lang === "zh" ? "社交媒体" : "Social"}</h3>
           <div className="flex gap-3">
             <a aria-label="LinkedIn" className="grid h-10 w-10 place-items-center border border-slate-600" href={settings.social.linkedin}><Linkedin size={18} /></a>
