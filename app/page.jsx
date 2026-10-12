@@ -116,12 +116,20 @@ export default function HomePage() {
               cleaning, utility requirements, testing, and the details to include in an RFQ.
             </p>
           </div>
-          <Link
-            href="/resources/how-to-choose-commercial-vegetable-cutting-machine"
-            className="inline-flex min-h-12 items-center justify-center bg-graphite px-6 text-sm font-black uppercase text-white transition hover:bg-slate-700"
-          >
-            Read Buyer Guide
-          </Link>
+          <div className="flex flex-col gap-3 sm:flex-row md:flex-col">
+            <Link
+              href="/resources/how-to-choose-commercial-vegetable-cutting-machine"
+              className="inline-flex min-h-12 items-center justify-center bg-graphite px-6 text-sm font-black uppercase text-white transition hover:bg-slate-700"
+            >
+              Read Buyer Guide
+            </Link>
+            <Link
+              href="/resources"
+              className="inline-flex min-h-12 items-center justify-center border border-graphite px-6 text-sm font-black uppercase text-graphite transition hover:bg-slate-50"
+            >
+              All Buyer Resources
+            </Link>
+          </div>
         </div>
       </section>
 

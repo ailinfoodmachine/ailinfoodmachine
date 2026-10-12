@@ -26,6 +26,7 @@ export default function Footer() {
           <div className="grid gap-3 text-sm text-slate-300">
             <Link href="/">{t.nav.home}</Link>
             <Link href="/products">{t.nav.products}</Link>
+            <Link href="/resources">{t.nav.resources}</Link>
             <Link href="/about">{t.nav.about}</Link>
             <Link href="/contact">{t.nav.contact}</Link>
           </div>

@@ -9,6 +9,7 @@ export default function sitemap() {
     "/catalog",
     "/about",
     "/contact",
+    "/resources",
     "/resources/how-to-choose-commercial-vegetable-cutting-machine",
     "/resources/commercial-potato-peeling-machine-buying-guide",
     "/resources/commercial-dough-mixer-buying-guide",

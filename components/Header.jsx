@@ -9,6 +9,7 @@ import settings from "@/data/settings.json";
 const navItems = [
   { href: "/", key: "home" },
   { href: "/products", key: "products" },
+  { href: "/resources", key: "resources" },
   { href: "/catalog", key: "catalog" },
   { href: "/about", key: "about" },
   { href: "/contact", key: "contact" }
